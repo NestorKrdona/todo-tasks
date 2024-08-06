@@ -9,6 +9,8 @@
   "author": "Nestor Cardona",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongoose": "^6.10.0",
+    "node-env-file": "^0.1.8"
   }
 }
