@@ -1,0 +1,16 @@
+{
+  "name": "todo-tasks",
+  "version": "1.0.0",
+  "description": "API RESTful para gestionar tareas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nestor Cardona",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^6.10.0",
+    "node-env-file": "^0.1.8"
+  }
+}
