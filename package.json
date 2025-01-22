@@ -9,6 +9,8 @@
   "license": "ISC",
   "description": "API RESTful with Node.js and Express",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "mongoose": "^6.10.0",
+    "node-env-file": "^0.1.8"
   }
 }
