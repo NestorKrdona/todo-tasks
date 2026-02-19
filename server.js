@@ -1,5 +1,6 @@
 const express = require('express');
 const api = require('./api');
+var path = require("path");
 const port = process.env.PORT || 3000;
 const app = express();
 
@@ -11,7 +12,7 @@ app.listen(port, function () {
 });
 
 app.get('/', function (req, res) {
-    res.send("hello world");
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.use('/api', api);
